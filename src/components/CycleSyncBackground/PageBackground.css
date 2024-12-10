@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+.PageBackground {
+    width: 100%;
+    height: 100%;
+    background: #FCD2CD;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header {
+    width: 100%;
+    height: 11.5rem;
+    flex-shrink: 0;
+    background: #F9AAA3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: 0.375rem #E96666 solid;
+}
+
+.TitleText {
+    width: 26.625rem;
+    height: 9.125rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 0.95rem;
+}
+
+.TitleFrame {
+    width: 25.75rem;
+    height: 5.6875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.19rem;
+}
+
+.CycleText {
+    width: 13.75rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5rem;
+    font-family: "Bold", Poppins;
+    color: #81160B;
+    letter-spacing: 0.09rem;
+    padding-top: 0.20rem;
+}
+
+.SyncText {
+    width: 11.75rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5rem;
+    font-family: "Bold", Poppins;
+    color: #F15546;
+    letter-spacing: 0.09rem;
+    padding-top: 0.20rem;
+}
+
+.LineText {
+    width: 25.125rem;
+    height: 0.0625rem;
+    background: #A30000;
+    padding-bottom: 0.00625rem;
+}
+
+.TaglineTextFrame {
+    width: 20.4375rem;
+    height: 2.1875rem;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.25rem;
+}
+
+.TaglineText {
+    font-size: 1.25rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #763738;
+    line-height: 136.175%;
+    letter-spacing: 0.025rem;
+    display: flex;
+    align-self: center;
+}
+
+.PageBody {
+    width: 100%;
+    height: 100%;
+}
+
+.BackgroundImage {
+    width: 120rem;
+    height: 55.6875rem;
+}
+
+
+
+
+
