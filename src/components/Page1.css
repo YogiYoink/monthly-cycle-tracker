@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 3.63rem;
 }
 
 .Question1 {
@@ -27,5 +28,45 @@
 
 .ContentFrame1 {
     display: flex;
+    justify-content: space-around;
+    gap: 7.06rem;
+}
 
+.YesButton {
+    width: 10.5rem;
+    height: 4.9375rem;
+    fill: #FFEFEF;
+    border-width: 1px;
+    border-color: #BE3434;
+    color: #DB5151;
+    text-align: center;
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 121.017%; /* 2.72288rem */
+    letter-spacing: 0.045rem;
+    border-radius: 1.56rem; 
+}
+
+.NoButton {
+    width: 10.5rem;
+    height: 4.9375rem;
+    fill: #FFEFEF;
+    border-width: 1px;
+    border-color: #BE3434;
+    color: #DB5151;
+    text-align: center;
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 121.017%; /* 2.72288rem */
+    letter-spacing: 0.045rem;
+    border-radius: 1.56rem;
+}
+
+button:hover {
+    filter: brightness(90%);
+    cursor: pointer;
 }
