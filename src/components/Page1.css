@@ -1,0 +1,31 @@
+.PageFrame1 {
+    width: 65.4375rem;
+    height: 30.25rem;
+    border-radius: 1.5625rem;
+    background: #EF9797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Question1 {
+    width: 41.75rem;
+    height: 8.6875rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 121.017%; /* 3.02544rem */
+    letter-spacing: 0.05rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ContentFrame1 {
+    display: flex;
+
+}

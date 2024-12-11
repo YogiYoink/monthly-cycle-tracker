@@ -1,5 +1,6 @@
 import React from 'react';
 import './PageBackground.css'
+import Page1 from './Page1';
 
 function PageBackground() {
 
@@ -18,11 +19,7 @@ function PageBackground() {
                 </div>
             </div>
             <div className = "PageBody">
-                {/* <div className = "Frame1">
-                    <h1 className = "Question1">Do you keep track of your menstrual cycle?</h1>
-                    <button className = "YesButton">YES</button>
-                    <button className = "NoButton">NO</button>
-                </div> */}
+                <Page1/>
             </div>
         </div>
     )
