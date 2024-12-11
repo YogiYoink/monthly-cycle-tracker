@@ -1,5 +1,5 @@
 import './App.css';
-import PageBackground from "./components/CycleSyncBackground/PageBackground"
+import PageBackground from "./components/PageBackground"
 
 function App() {
   return (

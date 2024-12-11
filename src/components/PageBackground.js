@@ -1,3 +1,4 @@
+import React from 'react';
 import './PageBackground.css'
 
 function PageBackground() {
@@ -17,11 +18,6 @@ function PageBackground() {
                 </div>
             </div>
             <div className = "PageBody">
-                <img
-                    src = "/src/assets/BackgorundImage.png"
-                    alt = "Background Image"
-                    className = "BackgroundImage"
-                />
                 {/* <div className = "Frame1">
                     <h1 className = "Question1">Do you keep track of your menstrual cycle?</h1>
                     <button className = "YesButton">YES</button>
