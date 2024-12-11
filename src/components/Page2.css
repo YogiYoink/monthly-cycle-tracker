@@ -1,4 +1,4 @@
-.PageFrame1 {
+.PageFrame2 {
     width: 65.4375rem;
     height: 30.25rem;
     border-radius: 1.5625rem;
@@ -10,7 +10,7 @@
     gap: 3.63rem;
 }
 
-.Question1 {
+.Statement {
     width: 41.75rem;
     height: 8.6875rem;
     color: #FFF;
@@ -26,13 +26,13 @@
     justify-content: center;
 }
 
-.ButtonFrame1 {
+.ButtonFrame2 {
     display: flex;
     justify-content: space-around;
     gap: 7.06rem;
 }
 
-.YesButton {
+.OkButton {
     width: 9.8125rem;
     height: 4.5625rem;
     fill: #FFEFEF;
@@ -47,23 +47,6 @@
     line-height: 121.017%; /* 2.72288rem */
     letter-spacing: 0.045rem;
     border-radius: 1.56rem; 
-}
-
-.NoButton {
-    width: 9.8125rem;
-    height: 4.5625rem;
-    fill: #FFEFEF;
-    border-width: 1px;
-    border-color: #BE3434;
-    color: #DB5151;
-    text-align: center;
-    font-family: Inter;
-    font-size: 1.875rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 121.017%; /* 2.72288rem */
-    letter-spacing: 0.045rem;
-    border-radius: 1.56rem;
 }
 
 button:hover {
